@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;    
+    background-color: #111111;
+}
+
+.container{
+    padding: 30px 80px 30px 80px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    filter: invert(60%) sepia(95%) saturate(7342%) hue-rotate(1deg) brightness(113%) contrast(114%);
+}
+
+nav{
+    font-size: 14px;
+    margin-right: 70px;
+}
+
+.nav-item{
+    margin-left: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.intro-content-section{
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-section{
+    width: 500px;
+}
+
+.left-section > h1{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.left-section > h4{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #d3d5d9;
+    line-height: 23px;
+}
+
+.left-section > h4:first-child{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: red;
+}
+
+.hero{
+    width: 380px;
+    height: 400px;    
+}
+
+.hero > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button{
+    width: 140px;
+    height: 45px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: red;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box{
+    position: absolute;
+    background-color: #181818;
+    width: 57rem;
+    height: 690px;
+    left: -200px;
+    top: 469px;
+    z-index: -1;
+}
+
+.skills-section{
+    margin-top: 50px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;    
+    flex-wrap: wrap;
+}
+  
+.card-active{
+    background-color: red;    
+    padding: 40px 40px;
+    color: #fff;
+    width: 200px;
+}
+
+.card-active > h5{
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.card-active > img{
+    width: 40px;
+}
+
+.card-body{
+    font-size: 15px;
+    color: #eeeeee;
+}
+  
+.card{
+    padding: 40px 40px;
+    background-color: #1e1e1e;
+    color: #fff;
+    width: 200px;
+}
+
+.card-logo{
+    width: 45px;
+}
+
+.card-head{
+    margin: 15px 0px 15px 0px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+h5{
+    margin-top: 15px;
+    font-weight: 600;
+    color: red;
+}
+
+.experience-section{
+    display: flex;
+    text-align: center;
+    align-items: center;    
+    color: red;
+    gap: 20px;
+    margin: 50px 140px 50px 140px;
+}
+
+.experience-section > div:first-child{
+    width: 66%;
+}
+
+.experience-section > div:first-child > h1{
+    font-size: 100px;
+}
+
+.experience-section > div:first-child > p{
+    color: #fff;
+    font-size: 25px;
+}
+
+.experience-cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.experience-card{
+    padding: 20px 20px;
+    background-color: #1e1e1e;
+    color: #fff;
+    width: 242px;
+}
+
+.experience-card h1{
+    font-weight: 600;
+    color: red;
+}
+
+.experience-card p{
+    margin-top: 5px;
+    color: #eeeeee;
+}
+
+.project-section{
+    margin-top: 60px;
+}
+
+.project-heading{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px 30px 120px;
+}
+
+.project-heading > div:first-child > h3{
+    font-size: 25px;
+}
+
+.project-heading > div:first-child > p{
+    font-size: 15px;
+    margin-top: 8px;
+    color: #eeeeee;
+}
+
+.project-cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-card  div{
+    background-color: rgb(30, 30, 30);
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.project-card img{
+    width: 90%;
+}
+
+.project-card h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contact-section{
+    margin-top: 60px;
+    padding: 0px 125px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #1e1e1e;
+    align-items: center;
+    height: 220px;
+}
+
+.contact h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.contact p{
+    margin-top: 15px;
+    font-size: 13px;
+    color: #eeeeee;
+}
+
+.footer-menu{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 60px;
+}
+
+.icon-color{
+    color: #fff;
+}
+
+.footer{
+    background-color: #1e1e1e; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.footer > div:last-child{
+    margin-right: 410px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 35px;
+}
+
+.footer i{
+    font-size: 18px;
+}
